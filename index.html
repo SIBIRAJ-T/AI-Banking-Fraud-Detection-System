@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Fraud Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bank Fraud Detection System</h1>
+
+        <form id="fraudForm">
+            <label>Transaction Amount</label>
+            <input type="number" id="amount" required>
+
+            <label>Location (Enter Code)</label>
+            <input type="number" id="location" required>
+
+            <label>Time (Hour)</label>
+            <input type="number" id="time" required>
+
+            <button type="submit">Check Transaction</button>
+        </form>
+
+        <div id="resultBox"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
